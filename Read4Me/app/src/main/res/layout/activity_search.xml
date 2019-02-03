@@ -1,0 +1,42 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:src="@drawable/logo"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+
+        android:background="@drawable/logobg"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_margin="45dp"
+        android:layout_height="wrap_content"
+        android:text="Search By Mail-ID"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter mail-id :"/>
+    <EditText
+        android:id="@+id/selem"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/search"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@drawable/button1"
+        android:layout_gravity="center"
+        android:text="search"/>
+
+</LinearLayout>

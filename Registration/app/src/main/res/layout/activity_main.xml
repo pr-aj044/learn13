@@ -1,0 +1,156 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grbg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_height="wrap_content"
+        android:text="faculty name"/>
+    <EditText
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fname"/>
+    <TextView
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="faculty code"/>
+    <EditText
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fcode"/>
+    <TextView
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="faculty email"/>
+    <EditText
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fmail"/>
+    <TextView
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="faculty mob"/>
+    <EditText
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/fmob"/>
+    <TextView
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="faculty salary"/>
+    <EditText
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fsal"/>
+    <TextView
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="faculty place"/>
+    <EditText
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fplace"/>
+    <TextView
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="faculty college"/>
+    <EditText
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fclg"/>
+    <TextView
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="faculty username"/>
+    <EditText
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fuser"/>
+    <TextView
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="faculty password"/>
+    <EditText
+        android:layout_marginRight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/fpswd1"/>
+
+
+
+
+        <TextView
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="faculty confirm password"/>
+
+
+        <EditText
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:id="@+id/fpswd2"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:background="@drawable/button1"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:id="@+id/submit"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

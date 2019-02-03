@@ -1,0 +1,91 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradebg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:layout_width="83dp"
+        android:layout_height="86dp"
+        android:layout_gravity="center"
+        android:background="@drawable/logo"
+        android:src="@drawable/wolvws" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="FoxCalc"
+        android:textColor="@color/colorW"
+        android:textSize="25dp"/>
+    <TextView
+
+        android:layout_margin="15dp"
+
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Number"/>
+    <EditText
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/fnum"/>
+    <TextView
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second Number"/>
+    <EditText
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/snum"/>
+
+    <TextView
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Operation"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_margin="15dp"
+        android:entries="@array/operation"
+        android:background="@color/colorW"
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textColor="@color/colorW"
+        android:id="@+id/res"/>
+    <EditText
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:editable="false"
+        android:textSize="55px"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:id="@+id/txtres" />
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Next"-->
+        <!--android:id="@+id/nw"/>-->
+</LinearLayout>
